@@ -11,7 +11,9 @@ Tested on Redhat, fedora and ubuntu linux distributions.
 
 No agent to install on remote devices, uses powershell for windows and ssh for linux to collect information.
 
-csharp source code is provided here. For ironpython script and other dependencies, download the binaries at [Download](http://www.device42.com/open-discovery-client)
+csharp source code is provided here. For ironpython script and other dependencies, download the binaries at [Download](http://www.device42.com/open-discovery-client).
+
+
 To create complete visual studio 2010 project, get the project folder from here and drop binary dependencies from download link into bin\debug folder.
 
 
