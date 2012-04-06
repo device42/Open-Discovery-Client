@@ -25,9 +25,9 @@ To create complete visual studio 2010 project, get the project folder from here 
 
 ## Install
 -----------------------------
-Please see [Install](https://docs.device42.com/open-discovery-client/open-discovery-client-installation/)
+Please see [Install](http://docs.device42.com/open-discovery-client/open-discovery-client-installation/)
 
 
 ## Documentation
 -----------------------------
-Please see [Documentation](https://docs.device42.com/open-discovery-client/)
+Please see [Documentation](http://docs.device42.com/open-discovery-client/)
