@@ -35,7 +35,6 @@ Please see [Documentation](http://docs.device42.com/open-discovery-client/)
 
 ## Trademarks and Copyrights
 -----------------------------
-If you want to say something like "Powered by Device42" we'd be honored. 
-If you want to redistribute app, you must come up with your own product name. 
-Use of the rajlog llc trademarks/copyright materials in your product  requires rajlog llc's 
+
+If you want to redistribute app, you must come up with your own product name. If you want to say something like "Powered by Device42" we'd be honored. Use of the rajlog llc trademarks/copyright materials in your product  requires rajlog llc's 
 written permission.
