@@ -33,10 +33,9 @@ Please see [Install](http://docs.device42.com/open-discovery-client/open-discove
 -----------------------------
 Please see [Documentation](http://docs.device42.com/open-discovery-client/)
 
-## Trademarks
+## Trademarks and Copyrights
 -----------------------------
-"Device42" is a pending trademark of rajlog llc, all rights 
-reserved. If you want to say something like "Powered by Device42" we'd be honored. 
+If you want to say something like "Powered by Device42" we'd be honored. 
 If you want to redistribute app, you must come up with your own product name. 
-Use of the rajlog llc trademarks in your product name requires rajlog llc's 
+Use of the rajlog llc trademarks/copyright materials in your product  requires rajlog llc's 
 written permission.
