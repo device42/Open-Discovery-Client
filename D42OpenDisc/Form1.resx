@@ -117,6 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="tabPage1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Linux Tips: By default, root has permissions to run dmidecode. If you are running auto-discover as 
+non-root user, you would need following in your /etc/sudoers file:
+
+%your-group-here ALL = (ALL) NOPASSWD:/usr/sbin/dmidecode
+
+If this permission is missing, auto-discovery client would not be able to find out hardware, manufacturer and serial #, CPU info etc.
+Also, you might  need to comment out "Default requiretty" line in /etc/sudoers file.</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Windows Tips:  If you are logged in as a domain user who has rights to run wmi query remotely on the machines being discovered, you don’t have to enter your credentials, Otherwise enter credentials for user who has permissions in form of domain\username and password.</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>Get rid of multiple excel sheets and de-centralized visio diagrams with a comprehensive, easy to use, web based software with following features and more:
+
+-Data Center Inventory Management
+-IT Asset and Inventory Management with Customizable QR Codes 
+-IP Address Management (IPv4 and IPv6)
+-Application dependency mappings and Impact Charts
+-Secure and Centralized Password management
+-with role based access and AD/LDAP integration.</value>
+  </data>
+  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
