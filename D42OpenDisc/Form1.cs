@@ -137,17 +137,18 @@ namespace D42OpenDisc
                             System.Management.ObjectQuery oQuery_cpu = new System.Management.ObjectQuery("select maxclockspeed,numberOfCores from win32_processor");
                             ManagementObjectSearcher oSearcher_cpu = new ManagementObjectSearcher(oMs, oQuery_cpu);
                             ManagementObjectCollection oReturnCollection_cpu = oSearcher_cpu.Get();
-                            int cpucount = 0;
+                            int cpucount = 0; decimal cspeed = 0.0m;
                             string cpuspeed = ""; string cpucores = "";
                             foreach (ManagementObject oReturn in oReturnCollection_cpu)
                             {
                                 cpucount += 1;
                                 cpuspeed = oReturn["maxclockspeed"].ToString();
+                                cspeed = Convert.ToDecimal(cpuspeed) / 1000;
                                 cpucores = oReturn["numberOfCores"].ToString();
                             }
                             if (cpucount > 0)
                             {
-                                list_cpucount = cpucount.ToString(); list_cpucore = cpucores; list_cpuspeed = cpuspeed;
+                                list_cpucount = cpucount.ToString(); list_cpucore = cpucores; list_cpuspeed = Convert.ToString(cspeed);
                             }
                         }
                         catch
@@ -899,9 +900,7 @@ namespace D42OpenDisc
                         // set some core property values
                         xlPackage.Workbook.Properties.Title = "D42 Devices and IP Excel Sheet";
                         xlPackage.Workbook.Properties.Author = "Device42 Open Discovery Software";
-                        //xlPackage.Workbook.Properties.Comments = "This sample demonstrates how to create an Excel 2007 file from scratch using the Packaging API and Office Open XML";
-
-
+                        
                         xlPackage.Save();
                         being_written = false;
                     }
@@ -909,9 +908,7 @@ namespace D42OpenDisc
                 catch( Exception  e)
                 {
                     Trace.WriteLine(e.ToString());
-
                 }
-
             }
             else
             {
