@@ -1,5 +1,5 @@
     D42 Open Discovery Client enumerates windows and linux devices based on user input and creates an excel sheet with device related info and IP properties.
-    Copyright (C) 2012  rajlog llc
+    Copyright (C) 2012  Device42, Inc. 
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
