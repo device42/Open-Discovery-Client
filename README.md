@@ -15,18 +15,6 @@ Download the binaries at [Download](http://www.device42.com/open-discovery-clien
 
 
 
-## Requirements
------------------------------
- * Microsoft .Net Framework 4
-
-## Install
------------------------------
-Please see [Install](http://docs.device42.com/open-discovery-client/open-discovery-client-installation/)
-
-
-## Documentation
------------------------------
-Please see [Documentation](http://docs.device42.com/open-discovery-client/)
 
 ## Trademarks and Copyrights
 -----------------------------
