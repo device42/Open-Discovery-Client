@@ -1,4 +1,4 @@
-# Device42 Open Discovery Client
+# DEPRECATED Device42 Open Discovery Client
 A .net based auto-discovery client provided by device42 Team that would enumerate windows and linux servers in your network and create a excel sheet with  3 tabs:
 
     device info(name,  Hardware manufacturer, Hardware model, serial number, OS, OS version, OS version number, OS Serial #, RAM, CPU, Cores/CPU, CPU Speed)
